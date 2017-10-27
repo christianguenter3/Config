@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+  <XMLConfigSettings>
+    <FILEINFO>
+      <Author>ADVENTAS</Author>
+      <Type>LangSpec</Type>
+      <Language>EBNF</Language>
+      <Desc>Language Specification for EBNF</Desc>
+    </FILEINFO>
+    <SPECIFICATION>
+      <FilePattern>*.ebnf</FilePattern>
+      <CaseSensitive>1</CaseSensitive>
+      <OpenClose>[]{}""</OpenClose>
+      <Delimiters>.</Delimiters>
+      <WrapBy>=.</WrapBy>
+      <LineEnd>.</LineEnd>
+      <Words>0-9a-Z_/&lt;&gt;</Words>
+    </SPECIFICATION>
+    <STRUCTURES>
+      <exception-follows value="="/>
+    </STRUCTURES>
+    <FORMAT>
+      <DefaultIndent>2</DefaultIndent>
+      <ResetFormatSymbols/>
+    </FORMAT>
+    <SYNTAXINFO>
+      <InfoType clr="-1" id="1" name="Compiler error"/>
+      <InfoType clr="-1" id="2" name="Performance tip"/>
+      <InfoType clr="-1" id="3" name="Syntax tip"/>
+      <InfoType clr="-1" id="4" name="Spelling error"/>
+    </SYNTAXINFO>
+    <COLORSYNTAX>
+      <TextType bkclr="139" clr="16777215" dbkclr="0" dstyle="1" id="8" name="Breakpoint"/>
+      <TextType clr="139" dbkclr="1" dstyle="1" id="10" name="Changed indicator"/>
+      <TextType clr="12895487" dbkclr="1" dstyle="1" id="11" name="Changed and saved indicator"/>
+      <TextType bkclr="15918553" clr="-1" dbkclr="0" dstyle="1" id="5" name="Current line"/>
+      <TextType bkclr="255" clr="65535" dbkclr="0" dstyle="1" id="6" name="Erroneous line"/>
+      <TextType bkclr="3329330" clr="16777215" dbkclr="0" dstyle="1" id="7" name="Execution"/>
+      <TextType bkclr="-1" clr="-1" dbkclr="0" dstyle="1" id="3" name="Inactive selected text"/>
+      <TextType clr="9342520" dbkclr="1" dstyle="1" id="4" name="Linenumber"/>
+      <TextType clr="255" dbkclr="1" dstyle="1" id="13" name="Maximum line length"/>
+      <TextType bkclr="9922608" clr="16777215" dbkclr="0" dstyle="1" id="2" name="Selected text"/>
+      <TextType clr="14281970" dbkclr="1" dstyle="1" id="1" name="Selection margin"/>
+      <TextType bkclr="-1" bold="1" clr="0" id="21" italic="0" name="Text highlights" underline="0"/>
+      <TextType bkclr="-1" bold="1" clr="255" id="22" italic="0" name="Text highlights error" underline="0"/>
+      <TextType bkclr="-1" bold="0" clr="-1" dbkclr="0" dstyle="0" id="30" italic="0" name="Normal" underline="0"/>
+      <TextType clr="15789798" dbkclr="1" dstyle="1" id="9" name="Read-only mode"/>
+      <TextType bkclr="-1" bold="0" clr="8421504" dbkclr="0" dstyle="0" id="31" italic="1" name="Comments" text="1" underline="0">
+        <FirstChar>*</FirstChar>
+        <Conditions>
+          <Condition end="\n" start="//"/>
+        </Conditions>
+      </TextType>
+      <TextType ImageIdx="13" bkclr="-1" bold="0" clr="16711680" id="52" italic="0" name="Keywords" underline="0">
+        <Keywords>
+          <Keyword text="DomainModel"/>
+          <Keyword text="name"/>
+          <Keyword text="ID"/>
+          <Keyword text="DTEL"/>
+          <Keyword text="TABL"/>
+          <Keyword text="STRING"/>
+          <Keyword text="superType"/>
+          <Keyword text="referenced"/>
+          <Keyword text="multi"/>
+          <Keyword text="|"/>
+        </Keywords>
+      </TextType>
+      <TextType bkclr="-1" bold="0" clr="16750899" dbkclr="0" dstyle="0" id="32" italic="0" name="Numbers" underline="0"/>
+      <TextType ImageIdx="12" bkclr="-1" bold="0" clr="8388736" id="55" italic="0" name="Operators" underline="0">
+        <Separators>
+          <Separator text="."/>
+          <Separator text="="/>
+          <Separator text="?="/>
+          <Separator text="["/>
+          <Separator text="]"/>
+          <Separator text="{"/>
+          <Separator text="}"/>
+          <Separator text="|"/>
+        </Separators>
+        <Keywords>
+          <Keyword text="."/>
+          <Keyword text="="/>
+          <Keyword text="?="/>
+        </Keywords>
+      </TextType>
+      <TextType bkclr="-1" bold="0" clr="1680973" dbkclr="0" dstyle="0" id="33" italic="0" name="Strings" text="1" underline="0">
+        <FirstChar/>
+        <Conditions>
+          <Condition end="&quot;" start="&quot;"/>
+        </Conditions>
+      </TextType>
+      <TextType bkclr="-1" clr="255" dbkclr="0" dstyle="1" id="40" name="Syntactical error"/>
+      <TextType bkclr="-1" bold="0" clr="8421504" id="70" italic="0" name="Token operator" underline="0">
+        <Separators/>
+      </TextType>
+      <TextType bkclr="-1" bold="0" clr="12614523" dbkclr="0" dstyle="0" id="20" italic="1" name="User region" text="0" underline="0">
+        <Conditions>
+          <Condition END="\n" START="#$"/>
+        </Conditions>
+      </TextType>
+    </COLORSYNTAX>
+  </XMLConfigSettings>

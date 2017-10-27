@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+  <XMLConfigSettings>
+    <FILEINFO>
+      <Author>ADVENTAS</Author>
+      <Type>LangSpec</Type>
+      <Language>GREETINGS_GUENTERC</Language>
+      <Desc>Language Specification for GREETINGS_GUENTERC</Desc>
+    </FILEINFO>
+    <EXPANDS/>
+  </XMLConfigSettings>

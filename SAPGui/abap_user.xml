@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="lang_user.xslt"?>
+<XMLConfigSettings>
+	<FILEINFO>
+		<Author>Alex Arseniev</Author>
+		<Type>LangUser</Type>
+		<Language>ABAP</Language>
+		<Desc>User specific settings for ABAP</Desc>
+	</FILEINFO>
+	<EXPANDS>
+		<Expand key="case">
+			<Descr>Case (§)</Descr>
+			<Text>CASE |.\n	WHEN .\n	WHEN .\n	WHEN OTHERS.\nENDCASE.</Text>
+		</Expand>
+		<Expand key="region">
+			<Descr>Region (§)</Descr>
+			<Text></Text>
+		</Expand>
+		<Expand key="cs">
+			<Descr>Check Sy-Subrc</Descr>
+			<Text>CHECK sy-subrc |= 0.</Text>
+		</Expand>
+		<Expand key="loop">
+			<Descr>Loop (§)</Descr>
+			<Text>LOOP AT | ASSIGNING &lt;&gt;.\n%SurroundedText%\nENDLOOP.</Text>
+		</Expand>
+		<Expand key="define">
+			<Descr>Define (§)</Descr>
+			<Text>DEFINE |.\n%SurroundedText%\nEND-OF-DEFINITION.</Text>
+		</Expand>
+		<Expand key="class">
+			<Descr>class</Descr>
+			<Text>CLASS |.\n\nENDCLASS.</Text>
+		</Expand>
+		<Expand key="ifse">
+			<Descr>ifse</Descr>
+			<Text>if sy-subrc | 0.\n\nelse.\n\nendif.</Text>
+		</Expand>
+		<Expand key="mess">
+			<Descr>Message</Descr>
+			<Text>MESSAGE ID sy-msgid TYPE 'S' NUMBER sy-msgno\n          WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4\n          DISPLAY LIKE sy-msgty.</Text>
+		</Expand>
+		<Expand key="try">
+			<Descr>Try (§)</Descr>
+			<Text>TRY |.\n%SurroundedText%\nCATCH .\n\nENDTRY.</Text>
+		</Expand>
+		<Expand key="sel">
+			<Descr>select</Descr>
+			<Text>select |\n	from\n	into\n	where	.</Text>
+		</Expand>
+		<Expand key="*--">
+			<Descr>*-------...</Descr>
+			<Text>*--------------------------------------------------------------------*</Text>
+		</Expand>
+		<Expand key="read"><Descr>read table</Descr><Text>read table | assigning &lt;&gt;\n		with table key .\n</Text></Expand><Expand key="ife"><Descr>If (§) Else</Descr><Text>IF |.\n%SurroundedText%\nELSE.\n\nENDIF.</Text></Expand><Expand key="while"><Descr>While (§)</Descr><Text>WHILE |.\n%SurroundedText%\nENDWHILE.</Text></Expand><Expand key="excimp"><Descr>Local Exception Class Generator (Implementation)</Descr><Text>*----------------------------------------------------------------------*\n*       CLASS %local_exception_class_name% IMPLEMENTATION\n*----------------------------------------------------------------------*\nCLASS %local_exception_class_name% IMPLEMENTATION.\n\n  METHOD constructor.\n\n    super-&gt;constructor( ).\n\n    me-&gt;if_t100_message~t100key-msgid  = c_msgid.\n    me-&gt;if_t100_message~t100key-msgno  = c_msgno.\n\n    " ToDo: Map Message-Var's\n\n  ENDMETHOD.                    "constructor\n\nENDCLASS.                    "%local_exception_class_name% IMPLEMENTATION</Text></Expand><Expand key="testclass"><Descr>testClass</Descr><Text>Class lcl_test| definition for testing\n	       	inheriting from cl_aunit_assert\n	       	duration short\n	       	risk level harmless.\n\n   private section.\n       methods: setup.		\n\nendclass.\n\nclass lcl_test implementation.\n  method setup.\n\n  endmethod.		\nendclass.</Text></Expand><Expand key="***"><Descr>***.....</Descr><Text>CHECK sy-subrc = 0.</Text></Expand><Expand key="ab"><Descr>AUNIT Assert - is an Instance bound</Descr><Text>cl_abap_unit_assert=&gt;assert_bound(\n    act = |\n    msg = \n  ).</Text></Expand><Expand key="excdef"><Descr>Exception Class Generator (Definition)</Descr><Text>*----------------------------------------------------------------------*\n*       CLASS %local_exception_class_name% DEFINITION\n*----------------------------------------------------------------------*\nCLASS %local_exception_class_name% DEFINITION\n    INHERITING FROM cx_no_check\n    FINAL.\n\n  PUBLIC SECTION.\n\n    CONSTANTS:\n      c_msgid TYPE msgid  VALUE '%msgid%',\n      c_msgno TYPE msgno  VALUE '%msgno%'.\n\n    INTERFACES:\n      if_t100_message.\n\n\n    METHODS:\n      constructor.\n\nENDCLASS.                    "%local_exception_class_name% DEFINITION</Text></Expand><Expand key="if"><Descr>If (§)</Descr><Text>IF |.\n%SurroundedText%\nENDIF.</Text></Expand><Expand key="as"><Descr>AUNIT Assert - Sy-Subrc</Descr><Text>cl_abap_unit_assert=&gt;assert_subrc( sy-subrc ).|</Text></Expand><Expand key="aem"><Descr>AUNIT Assert - is Equal (with Message)</Descr><Text>cl_abap_unit_assert=&gt;assert_equals(\n    exp = |\n    act =\n    msg =   ).</Text></Expand><Expand key="ifs"><Descr>if sy-subrc</Descr><Text>if sy-subrc | 0.\n\nendif.</Text></Expand><Expand key="method"><Descr>METHOD</Descr><Text>METHOD |.\n\nENDMETHOD.</Text></Expand><Expand key="#ltcl"><Descr>Local Test Class Generator</Descr><Text>*----------------------------------------------------------------------*\n*       CLASS %local Test-Classname% DEFINITION\n*----------------------------------------------------------------------*\nCLASS %local Test-Classname% DEFINITION \n    FOR TESTING\n    DURATION SHORT\n    RISK LEVEL HARMLESS\n    FINAL.\n\n  PRIVATE SECTION.\n	\n	|\n\nENDCLASS.                    "%local Test-Classname% DEFINITION\n\n*----------------------------------------------------------------------*\n*       CLASS %local Test-Classname% IMPLEMENTATION\n*----------------------------------------------------------------------*\nCLASS %local Test-Classname% IMPLEMENTATION.\n\n\nENDCLASS.                    "%local Test-Classname% IMPLEMENTATION</Text></Expand><Expand key="ani"><Descr>AUNIT Assert - is not initial</Descr><Text>cl_abap_unit_assert=&gt;assert_not_initial( | ).</Text></Expand><Expand key="do"><Descr>Do (§)</Descr><Text>DO | TIMES.\n%SurroundedText%\nENDDO.</Text></Expand><Expand key="string_template"><Descr>String Template</Descr><Text>||{ %SurroundedText% }|</Text></Expand><Expand key="fs"><Descr>fieldsymbol</Descr><Text>FIELD-SYMBOLS: &lt;|&gt; like line of .</Text></Expand><Expand key="abm"><Descr>AUNIT Assert - is an Instance bound (with Message)</Descr><Text>cl_abap_unit_assert=&gt;assert_bound(\n    act = |\n    msg =   ).</Text></Expand><Expand key="ae"><Descr>AUNIT Assert - is Equal</Descr><Text>cl_abap_unit_assert=&gt;assert_equals(\n    exp = |\n    act =  ).</Text></Expand><Expand key="at"><Descr>AUNIT Assert that</Descr><Text>cl_abap_unit_assert=&gt;assert_that(\n    exp = |\n    act =\n  ).</Text></Expand></EXPANDS>
+</XMLConfigSettings>
