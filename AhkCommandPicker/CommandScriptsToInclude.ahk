@@ -1,0 +1,30 @@
+;====================================================================
+; Include our utility functions used by some of the Commands first.
+;====================================================================
+#Include Y:\Dokumente\Autohotkey\AhkCommandPicker\Commands\UtilityFunctions.ahk
+
+
+;====================================================================
+; Include the files with the Commands we want to include in the picker.
+; You can put all of your commands in a single file, or break them into
+; separate files (e.g General.ahk, Work.ahk, Personal.ahk, HomePC.ahk, etc.).
+;====================================================================
+#Include Y:\Dokumente\Autohotkey\AhkCommandPicker\Commands\DefaultCommands.ahk
+#Include Y:\Dokumente\Autohotkey\AhkCommandPicker\Commands\MyCommands.ahk
+
+
+;====================================================================
+; Include any files containing HotKeys/HotStrings last, as any AddCommand 
+; functions defined after a HotKey/HotString won't be loaded at startup,
+; and hence, won't show up in the Command Picker list.
+;====================================================================
+#Include Y:\Dokumente\Autohotkey\AhkCommandPicker\Commands\DefaultHotkeys.ahk
+#Include Y:\Dokumente\Autohotkey\AhkCommandPicker\Commands\MyHotkeys.ahk
+
+#Include Y:\Dokumente\Autohotkey\AutoHotkey.ahk
+
+
+
+
+
+	

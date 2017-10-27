@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<TRACE opened_at="2014-09-25, 13:45:17" time_zone="Mitteleuropäische Sommerzeit" current_working_directory="Y:\Dokumente\Autohotkey\AhkCommandPicker" program="ruby" rfc_library="711 N" hardware="PC with Windows NT 8x Intel 80686 (Mod 58 Step 9)" operating_system="Windows NT 6.1" kernel_release=" 711 patchlevel 0" default_codepage="1100" local_host="DEWSANIS259" ip_address="" ip_address_v6="">
+<ERROR thread="10772" comp="RUNTIME" time="2014-09-25, 13:45:17">ID:FL Type:E Number:046 GET_</ERROR>
+<ERROR thread="5784" comp="RUNTIME" time="2014-10-28, 11:59:38">ID:FL Type:E Number:046 RZL_READ_DIRRZL_READ_DIR_GLOBA</ERROR>
+<ERROR thread="32604" comp="RUNTIME" time="2015-03-16, 08:25:02">ID:FL Type:E Number:046 Z_GET_TIME_DATA_AS_TABLE</ERROR>
+<ERROR thread="37648" comp="RUNTIME" time="2015-03-16, 08:25:15">ID:FL Type:E Number:046 Z_GET_TIME_DATA_AS_TABLE</ERROR>
+<ERROR thread="2340" comp="RUNTIME" time="2015-03-30, 10:28:35">ID:FL Type:E Number:046 T161T</ERROR>
+<ERROR thread="21008" comp="RUNTIME" time="2015-05-18, 10:51:24"> Number:000</ERROR>
+<ERROR thread="13236" comp="RUNTIME" time="2015-05-18, 11:02:09"> Number:000</ERROR>
+<ERROR thread="21484" comp="RUNTIME" time="2015-05-18, 11:02:19"> Number:000</ERROR></TRACE>
+**** Trace file opened at 2017-02-04, 13:45:03 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+Typkonflikt bei Aufruf eines Funktionsbausteins
+
+**** Trace file opened at 2017-02-04, 13:45:31 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+Typkonflikt bei Aufruf eines Funktionsbausteins
+
+**** Trace file opened at 2017-02-04, 13:45:39 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+Typkonflikt bei Aufruf eines Funktionsbausteins
+
+**** Trace file opened at 2017-02-04, 14:10:27 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+Dynproausgabe ohne Verbindung zum Benutzer
+
+**** Trace file opened at 2017-02-04, 14:10:30 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+Dynproausgabe ohne Verbindung zum Benutzer
+
+**** Trace file opened at 2017-02-04, 14:10:46 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+Dynproausgabe ohne Verbindung zum Benutzer
+
+**** Trace file opened at 2017-02-04, 14:11:11 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+Dynproausgabe ohne Verbindung zum Benutzer
+
+**** Trace file opened at 2017-02-04, 14:14:08 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+SYSTEM_FAILURE during connect: Anmeldedaten unvollständig.
+
+
+**** Trace file opened at 2017-02-04, 14:14:13 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+SYSTEM_FAILURE during connect: Anmeldedaten unvollständig.
+
+
+**** Trace file opened at 2017-02-04, 14:32:14 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.9.15.53, IP address_v6: 10.9.15.53
+
+`27774000` nicht als Zahl interpretierbar
+
+**** Trace file opened at 2017-02-06, 09:13:22 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.82.18.140, IP address_v6: 10.82.18.140
+
+Typkonflikt bei Aufruf eines Funktionsbausteins
+
+**** Trace file opened at 2017-02-15, 09:29:41 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.59.18.182, IP address_v6: 10.59.18.182
+
+Ausnahmebedingung "ERROR" ausgelöst
+
+**** Trace file opened at 2017-02-21, 15:44:40 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.59.18.182, IP address_v6: 10.59.18.182
+
+Ausnahmebedingung "ERROR" ausgelöst
+
+**** Trace file opened at 2017-02-22, 13:02:33 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.59.18.182, IP address_v6: 10.59.18.182
+
+Ausnahmebedingung "ERROR" ausgelöst
+
+**** Trace file opened at 2017-03-09, 13:38:51 Mitteleuropäische Zeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.59.18.182, IP address_v6: 10.59.18.182
+
+Ausnahmebedingung "ERROR" ausgelöst
+
+**** Trace file opened at 2017-03-31, 07:37:33 Mitteleuropäische Sommerzeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 10.59.18.182, IP address_v6: 10.59.18.182
+
+Ausnahmebedingung "ERROR" ausgelöst
+
+**** Trace file opened at 2017-04-20, 07:55:53 Mitteleuropäische Sommerzeit
+ RFC library: 742, Current working directory: Y:\Dokumente\Autohotkey\AhkCommandPicker, Program: ruby
+ Hardware: PC with Windows NT 4x Intel 80686 (Mod 94 Step 3), Operating_system: Windows NT 6.3, Kernel_release: 742 patchlevel 0
+ Hostname: DEWSANIS378, IP address: 172.18.80.1, IP address_v6: 172.18.80.1
+
+Ausnahmebedingung "ERROR" ausgelöst

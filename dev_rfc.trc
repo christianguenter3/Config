@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TRACE opened_at="2014-04-11, 17:33:36" time_zone="Mitteleuropäische Sommerzeit" current_working_directory="Y:\Dokumente\Autohotkey" program="ruby" rfc_library="711 N" hardware="PC with Windows NT 8x Intel 80686 (Mod 58 Step 9)" operating_system="Windows NT 6.1" kernel_release=" 711 patchlevel 0" default_codepage="1100" local_host="DEWSANIS259" ip_address="" ip_address_v6="">
+<ERROR thread="9256" comp="RUNTIME" time="2014-04-11, 17:33:36">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="10540" comp="RUNTIME" time="2014-04-11, 17:33:54">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="10812" comp="RUNTIME" time="2014-04-11, 17:34:29">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="6916" comp="RUNTIME" time="2014-04-11, 17:34:53">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="7940" comp="RUNTIME" time="2014-04-11, 17:35:50">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="9140" comp="RUNTIME" time="2014-04-11, 17:36:23">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="10348" comp="RUNTIME" time="2014-04-11, 17:36:56">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="9256" comp="RUNTIME" time="2014-04-11, 17:38:35"> Number:000</ERROR>
+<ERROR thread="10920" comp="RUNTIME" time="2014-04-11, 17:38:41">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="7720" comp="RUNTIME" time="2014-04-11, 17:39:29">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="10568" comp="RUNTIME" time="2014-04-11, 17:40:45">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="4492" comp="RUNTIME" time="2014-04-11, 17:41:01">ID:FL Type:E Number:046 cl_gui_frontend_services=</ERROR>
+<ERROR thread="10392" comp="RUNTIME" time="2014-04-11, 17:42:10">ID:FL Type:E Number:046 `</ERROR>
+<ERROR thread="10604" comp="RUNTIME" time="2014-04-12, 08:40:59">ID:FL Type:E Number:021 06</ERROR>
+<ERROR thread="7324" comp="RUNTIME" time="2014-04-12, 09:22:34">ID:FL Type:E Number:046 BAPI_ALM_NOTIF_CREATEe</ERROR>
+<ERROR thread="3496" comp="RUNTIME" time="2014-04-12, 09:23:43">ID:FL Type:E Number:046 BAPI_ALM_NOTIF_CREATEe</ERROR>
+<ERROR thread="8508" comp="RUNTIME" time="2014-04-12, 10:17:23">ID:FL Type:E Number:046 (</ERROR>
+<ERROR thread="11164" comp="RUNTIME" time="2014-04-12, 10:19:42">ID:FL Type:E Number:046 DATA: directory  TYPE string,</ERROR>
+<ERROR thread="3768" comp="RUNTIME" time="2014-04-12, 10:46:16">ID:FL Type:E Number:046 seom_call_method_pattern_new</ERROR>
+<ERROR thread="8840" comp="RUNTIME" time="2014-04-12, 10:46:22">ID:FL Type:E Number:046 seom_call_method_pattern_new</ERROR>
+<ERROR thread="4624" comp="RUNTIME" time="2014-04-12, 10:46:29">ID:FL Type:E Number:046 seom_call_method_pattern_new</ERROR>
+<ERROR thread="9112" comp="RUNTIME" time="2014-04-12, 10:47:30">ID:FL Type:E Number:046 seom_call_method_pattern_new</ERROR>
+<ERROR thread="5432" comp="RUNTIME" time="2014-04-12, 10:49:34">ID:FL Type:E Number:046 DATA: MTDKEY            TYPE S</ERROR>
+<ERROR thread="10660" comp="RUNTIME" time="2014-04-12, 10:49:46">ID:FL Type:E Number:046 DATA: MTDKEY            TYPE S</ERROR>
+<ERROR thread="4708" comp="RUNTIME" time="2014-04-12, 10:50:04">ID:FL Type:E Number:046 DATA: MTDKEY            TYPE S</ERROR>
+<ERROR thread="7928" comp="RUNTIME" time="2014-04-12, 10:51:11">ID:FL Type:E Number:046 DATA: MTDKEY            TYPE S</ERROR>
+<ERROR thread="9996" comp="RUNTIME" time="2014-04-12, 10:51:48">ID:FL Type:E Number:046 DATA: MTDKEY            TYPE S</ERROR>
+<ERROR thread="10860" comp="RUNTIME" time="2014-04-12, 10:52:31">ID:FL Type:E Number:046 DATA: MTDKEY            TYPE S</ERROR>
+<ERROR thread="3952" comp="RUNTIME" time="2014-04-12, 18:26:01">ID:FL Type:E Number:046 DATA: MTDKEY            *TYPE</ERROR>
+<ERROR thread="4288" comp="RUNTIME" time="2014-04-12, 18:35:14">ID:FL Type:E Number:046 DATA: DIRECTORY  TYPE STRING,</ERROR>
+<ERROR thread="5884" comp="RUNTIME" time="2014-04-12, 18:35:46">ID:FL Type:E Number:046 DATA: DIRECTORY  TYPE STRING,</ERROR>
+<ERROR thread="1416" comp="RUNTIME" time="2014-04-14, 07:44:25">ID:FL Type:E Number:046 DATA: IT_KUNNR        TYPE ZHY</ERROR>
+<ERROR thread="8760" comp="RUNTIME" time="2014-04-14, 09:55:08">ID:FL Type:E Number:046 ;SLEEP 4000</ERROR>
+<ERROR thread="4128" comp="RUNTIME" time="2014-04-14, 10:00:46">ID:FL Type:E Number:046 DATA: INCTOO</ERROR>
+<ERROR thread="7064" comp="RUNTIME" time="2014-04-17, 17:42:08">ID:FL Type:E Number:046 DATA:</ERROR>
+<ERROR thread="9188" comp="RUNTIME" time="2014-04-18, 15:03:27">ID:FL Type:E Number:046 DATA:</ERROR>
+<ERROR thread="9828" comp="RUNTIME" time="2014-04-21, 12:55:10">ID:FL Type:E Number:046 MSGBOX, TEST</ERROR>
+<ERROR thread="10312" comp="RUNTIME" time="2014-04-21, 12:58:56">ID:FL Type:E Number:046 , PROMPT, HIDE, WIDTH, HEIGHT,</ERROR>
+<ERROR thread="11228" comp="RUNTIME" time="2014-04-21, 13:17:23">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="11016" comp="RUNTIME" time="2014-04-21, 13:17:39">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="10588" comp="RUNTIME" time="2014-04-21, 13:17:54">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="1408" comp="RUNTIME" time="2014-04-21, 13:21:00">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="9432" comp="RUNTIME" time="2014-04-21, 13:21:36">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="8068" comp="RUNTIME" time="2014-04-21, 13:21:59">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="8092" comp="RUNTIME" time="2014-04-21, 13:22:49">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="11824" comp="RUNTIME" time="2014-04-21, 13:23:14">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="12180" comp="RUNTIME" time="2014-04-21, 13:23:28">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="11784" comp="RUNTIME" time="2014-04-21, 13:23:49">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="8916" comp="RUNTIME" time="2014-04-21, 13:24:26">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="9860" comp="RUNTIME" time="2014-04-21, 13:24:56">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="2160" comp="RUNTIME" time="2014-04-21, 13:27:04">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="752" comp="RUNTIME" time="2014-04-21, 13:27:36">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="1028" comp="RUNTIME" time="2014-04-21, 13:28:09">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="12072" comp="RUNTIME" time="2014-04-21, 13:28:55">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="716" comp="RUNTIME" time="2014-04-21, 13:29:55">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="10436" comp="RUNTIME" time="2014-04-21, 13:31:17">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="11400" comp="RUNTIME" time="2014-04-21, 13:32:48">ID:FL Type:E Number:046 CL_GUI_ALV_GRID</ERROR>
+<ERROR thread="11444" comp="RUNTIME" time="2014-04-21, 14:52:36">ID:FL Type:E Number:046 DATA: DRAW_KEY TYPE CVDIDRAWKE</ERROR>
+<ERROR thread="8200" comp="RUNTIME" time="2014-04-24, 16:39:46"> Number:000</ERROR>
+<ERROR thread="1616" comp="RUNTIME" time="2014-05-05, 15:12:09">ID:FL Type:E Number:046 DRAW</ERROR>
+<ERROR thread="9008" comp="RUNTIME" time="2014-05-15, 13:37:20">ID:FL Type:E Number:046 ZEHS_MAT_DRAW_H</ERROR>
+<ERROR thread="16236" comp="RUNTIME" time="2014-05-21, 16:11:24">Dynamic type conflict when assigning references</ERROR>
+<ERROR thread="1388" comp="RUNTIME" time="2014-05-27, 11:28:42">Dynamic type conflict when assigning references</ERROR>
+<ERROR thread="5440" comp="RUNTIME" time="2014-06-02, 08:56:51">ID:FL Type:E Number:046</ERROR>
+<ERROR thread="9104" comp="RUNTIME" time="2014-06-04, 11:54:29">ID:FL Type:E Number:046 DRAW</ERROR>
+<ERROR thread="10840" comp="RUNTIME" time="2014-06-06, 14:18:46">ID:FL Type:E Number:046 DRAW</ERROR></TRACE>
