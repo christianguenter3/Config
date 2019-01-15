@@ -1,6 +1,6 @@
-#e::Run C:\Users\christian.guenter\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\File Explorer.lnk
+#e::Run C:\Users\guenterc\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk
 
-#f::Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.lnk
+#f::Run C:\Program Files (x86)\Firefox Developer Edition\firefox.exe
 sleep 500
 send ^l
 Sleep, 100
@@ -18,15 +18,6 @@ return
 capslock & ,::
 Mousemove A_CaretX + 5, A_CaretY + 5
 click 2
-return
-
-^+c::
-old_clipboard := clipboard
-clipboard := "" 
-send ^c
-ClipWait
-new_clipboard := clipboard
-clipboard = %old_clipboard%`r`n%new_clipboard%
 return
 
 ^-::
@@ -482,11 +473,11 @@ send_ae()
 {
 	If GetKeyState("shift") = 1
 	{
-		send !+^q
+		send !+^a
 	}
 	Else
 	{
-		send ^!q
+		send ^!a
 	}
 }
 
@@ -524,10 +515,6 @@ else
 }
 
 capslock & vkBDsc035::
-click
-return
-
-capslock & vkBFsc035::
 click
 return
 
@@ -908,7 +895,7 @@ return
 send ^#y
 Return
 
-\ & vk58sc02D:: ;x
+\ & x::
 send {=}{>}
 return
 
@@ -1012,34 +999,19 @@ return
 ' & vkBFsc056::
 _in_adresszeile_springen()
 return
-
-' & vkE2sc056::
-_in_adresszeile_springen()
-return
-
-' & vk58sc02D:: ;x
-If WinActive("eclipse")
-{
-	send ^x
-}
-Else
-{
- 	send ^c
-	send {del}
-}
-return
+ 
 
 '::
 global aposRun
 if !aposRun 
 {
     aposRun := true
-    abc := "abcdefghijklmnopqrstuvwyz1234567890,."
+    abc := "abcdefghijklmnopqrstuvwxyz1234567890,."
     Loop, Parse, abc
     {
         Hotkey, ' & %A_LoopField%, label_char_to_char3, on
     }
-    ;Hotkey, ' & /, makro_in_adresszeile_springen, on
+    Hotkey, ' & /, makro_in_adresszeile_springen, on
 }
 send '
 return
@@ -2818,9 +2790,9 @@ SAPGuiToolTips(){
 			count := count + 1
 			ControlGetPos, x, y, Width, Height,  %A_LoopField%, %title%
 	 		y := y - 25 
-;			TT:=TT()
-;			TT.Show(count, x, y)
-;			tooltips.insert(TT)
+			TT:=TT()
+			TT.Show(count, x, y)
+			tooltips.insert(TT)
 		}
 	}
 
@@ -2855,12 +2827,6 @@ return
 
 #d::
 Run  "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" ,, max
-Sleep,  100
-WinMaximize, Neuer Tab - Google Chrome
-return
-
-#t::
-Run  `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe "www.google.com" --new-window` ,, max
 Sleep,  100
 WinMaximize, Neuer Tab - Google Chrome
 return
@@ -2900,12 +2866,12 @@ saveMousePosForTitle(){
     saveMousePositionForTitle[title] := [x, y]
 }
 
-; ~!Tab::
-; saveMousePosForTitle()
-; KeyWait, Alt
-; KeyWait, Tab
-; moveMouseToScreen()
-; return
+~!Tab::
+saveMousePosForTitle()
+KeyWait, Alt
+KeyWait, Tab
+moveMouseToScreen()
+return
 
 GetMonitorIndexFromWindow(windowHandle)
 {
@@ -3085,7 +3051,7 @@ Morse(timeout = 400) { ;by Laszo -> http://www.autohotkey.com/forum/viewtopic.ph
 }
 
 ; ~h::RapidHotkey("{Raw}Hello World!", 3) ;Press h 3 times rapidly to send Hello World!
-~Capslock::RapidHotkey("!^.", 2) 
+~Capslock::RapidHotkey("{escape}", 2) 
 ~LControl::RapidHotkey("move_mouse_to_cursor",2,,1)
 ~RControl::RapidHotkey("move_mouse_to_cursor",2,,1)
 move_mouse_to_cursor:
@@ -3106,21 +3072,14 @@ sleep 25
 send n
 return
 
-; ~LWin::RapidHotkey("test123",2,,1)
-; test123:
-; MsgBox, Test
-; return
+~LWin::RapidHotkey("test123",2,,1)
+test123:
+msgbox Test
+return
 
 ; ~.::RapidHotkey("{Raw}Test",2)
 ; ~a::RapidHotkey("{Raw}ä",2)
 ; ~u::RapidHotkey("{Raw}ü",2)
 ; ~o::RapidHotkey("{Raw}ö",2)
 
-; LShift & RShift::
-; msgBox Test
-; return
-
-; RShift & LShift::
-; msgBox Test
-; return
 

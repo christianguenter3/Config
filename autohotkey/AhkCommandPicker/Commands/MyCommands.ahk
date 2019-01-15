@@ -168,6 +168,14 @@ sametime(){
     send ^f
 }
 
+AddCommand("skype", "Skype")
+skype(){
+	SetTitleMatchMode, 2
+	DetectHiddenWindows, On
+	WinActivate, Skype
+	WinWaitActive, Skype
+}
+
 AddCommand("sametime2","Sametime Text bearbeiten")
 AddCommand("text","Sametime Text bearbeiten")
 sametime2()
@@ -292,52 +300,52 @@ POW(){
 
 AddCommand("Locals", "Locals")
 Locals(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_locals.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_locals.vbs
 }
 
 AddCommand("Var_1", "Variablen 1")
 Var_1(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_var_1.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_var_1.vbs
 }
 
 AddCommand("Var_2", "Variablen 2")
 Var_2(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_var_2.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_var_2.vbs
 }
 
 AddCommand("Globals", "Globals")
 Globals(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_global.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_global.vbs
 }
 
 AddCommand("Auto", "Auto")
 Auto(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_auto.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_auto.vbs
 }
 
 AddCommand("Memory", "Memory")
 Memory(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_memory.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_memory.vbs
 }
 
 AddCommand("Stack", "Stack")
 Stack(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_stack.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_stack.vbs
 }
 
 AddCommand("Code", "Code")
 Code(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_code.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_code.vbs
 }
 
 AddCommand("Tab", "Select Tab in SAPGUI")
 Tab(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_find_tab.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_find_tab.vbs
 }
 
 AddCommand("Services", "Services")
 Services(){
-    Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_services.vbs
+    Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\debug_tab_services.vbs
 }
 
 AddCommand("Conv", "Conv")

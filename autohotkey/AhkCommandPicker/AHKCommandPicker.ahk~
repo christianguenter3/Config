@@ -1057,19 +1057,19 @@ CPShowSettingsWindow()
 	return
 	
 	ShowSelectedCommandWindowToggled:
-		; Gui 2:Submit, NoHide	; Get the values from the GUI controls without closing the GUI.
-		;
-		; ; If ShowSelectedCommandWindow is checked, also check off the ShowSelectedCommandWindowWhenInfoIsReturnedFromCommand checkbox.
-		; if (_cpShowSelectedCommandWindow)
-		; 	GuiControl, , Button5, 1
+		Gui 2:Submit, NoHide	; Get the values from the GUI controls without closing the GUI.
+
+		; If ShowSelectedCommandWindow is checked, also check off the ShowSelectedCommandWindowWhenInfoIsReturnedFromCommand checkbox.
+		if (_cpShowSelectedCommandWindow)
+			GuiControl, , Button5, 1
 	return
 	
 	ShowSelectedCommandWindowWhenInfoIsReturnedFromCommandToggled:
-		; Gui 2:Submit, NoHide	; Get the values from the GUI controls without closing the GUI.
-		;
-		; ; If ShowSelectedCommandWindowWhenInfoIsReturnedFromCommand is unchecked, also uncheck the ShowSelectedCommandWindow checkbox.
-		; if (_cpShowSelectedCommandWindowWhenInfoIsReturnedFromCommand = false)
-		; 	GuiControl, , Button4, 0
+		Gui 2:Submit, NoHide	; Get the values from the GUI controls without closing the GUI.
+
+		; If ShowSelectedCommandWindowWhenInfoIsReturnedFromCommand is unchecked, also uncheck the ShowSelectedCommandWindow checkbox.
+		if (_cpShowSelectedCommandWindowWhenInfoIsReturnedFromCommand = false)
+			GuiControl, , Button4, 0
 	return
 		
 	SettingsSaveButton:		; Settings Save button was clicked.
@@ -1090,7 +1090,9 @@ CPShowSettingsWindow()
 ;==========================================================
 CPDisplayTextOnScreen(title, text = "")
 {
-	; Import any required global variables.
+    return
+
+    ; Import any required global variables.
 	global _cpNumberOfSecondsToShowSelectedCommandWindowFor, _cpNumberOfSecondsToShowSelectedCommandWindowForWhenInfoIsReturnedFromCommand
 	
 	titleFontSize := 24
