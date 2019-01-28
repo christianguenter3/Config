@@ -1018,7 +1018,8 @@ _in_adresszeile_springen()
 return
 
 ' & vk58sc02D:: ;x
-If WinActive("eclipse")
+WinGetTitle, Title, A
+If InStr(Title, "eclipse" , false)
 {
 	send ^x
 }
@@ -1612,9 +1613,9 @@ CapsLock & v::
 send {+}
 return
 
-CapsLock & b::
-send {*}
-return
+; CapsLock & b::
+; send {*}
+; return
 
 ::ibox::
 SendInput, 01800180
@@ -1629,9 +1630,9 @@ send iwfnd
 send % chr( 47 ) 
 return
 
-::por::
-send Portalrollen zugeordnet
-return
+; ::por::
+; send Portalrollen zugeordnet
+; return
 
 ::kei::
 send Keine Aktion notwendig
