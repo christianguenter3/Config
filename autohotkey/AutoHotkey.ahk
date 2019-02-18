@@ -29,6 +29,10 @@ new_clipboard := clipboard
 clipboard = %old_clipboard%`r`n%new_clipboard%
 return
 
+^#n::
+Run mailto:test@test.de
+return
+
 ^-::
 click 2
 return
