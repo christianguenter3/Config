@@ -1638,13 +1638,13 @@ return
 ; send Portalrollen zugeordnet
 ; return
 
-::kei::
-send Keine Aktion notwendig
-return
+; ::kei::
+; send Keine Aktion notwendig
+; return
 
-::gru::
-send Gruß Christian
-return 
+; ::gru::
+; send Gruß Christian
+; return 
 
 ;=============================
 ; EMACS
@@ -2648,7 +2648,7 @@ z(){
 }
 
 alvToolbarClick(){
-	Run, C:\Users\guenterc\Dropbox\Arbeit\10_SAP_Gui_Scripts\Buttons.vbs
+	Run, C:\Users\christian.guenter\Dropbox\Arbeit\10_SAP_Gui_Scripts\Buttons.vbs
 }
 
 RCTRL & m::
@@ -2658,11 +2658,12 @@ map.insert("!mr","Move_Window_2_3_left")
 map.insert("!ms","Move_Window_1_3_left")
 map.insert("!mt","Move_Window_1_3_right")
 map.insert("!md","Move_Window_2_3_right")
-prefixKey("!r",map)
+prefixKey("!m",map)
 return
 
 RALT & r::
 map:=Object()
+map.insert("!rc","Center")
 map.insert("!rx","CenterCurrentWindow")
 map.insert("!rr","Move_Window_2_3_left")
 map.insert("!rs","Move_Window_1_3_left")
@@ -2670,6 +2671,12 @@ map.insert("!rt","Move_Window_1_3_right")
 map.insert("!rd","Move_Window_2_3_right")
 prefixKey("!r",map)
 return
+
+Center(){
+    send #+l
+    send C
+    send #+l
+}
 
 CenterCurrentWindow() 
 {
