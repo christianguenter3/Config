@@ -367,3 +367,9 @@ OSS()
 	url := "https://launchpad.support.sap.com/#/notes/" . note . "/D"
 	Run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk" %url%
 }
+
+AddCommand("Translate", "Translate")
+Translate(){
+	url := "translate.google.de"
+	Run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk" %url%
+}
