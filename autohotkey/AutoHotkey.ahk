@@ -375,7 +375,7 @@ return
 _send("end")n 
 return
 
-~capslock & vkBAsc019::	
+~capslock & vkBA::	
 _send("del")
 return
 
@@ -430,7 +430,7 @@ return
 _send("pgup")
 return
 
-~CapsLock & vk31sc002::
+~CapsLock & vk31::
 _send("F1")
 return
 
@@ -527,15 +527,15 @@ else
 	click
 }
 
-capslock & vkBDsc035::
+capslock & vkBD::
 click
 return
 
-capslock & vkBFsc035::
+capslock & vkBF::
 click
 return
 
-CapsLock & vkE2sc00C::
+CapsLock & vkE2::
 _send("F11")
 return
 		
@@ -912,7 +912,7 @@ return
 send ^#y
 Return
 
-\ & vk58sc02D:: ;x
+\ & vk58:: ;x
 send {=}{>}
 return
 
@@ -932,7 +932,7 @@ return
 send ^y
 return
 
-\ & vkBAsc019::
+\ & vkBA::
 send ^+{F10}
 Return
 
@@ -940,11 +940,11 @@ Return
 send ^+{F11}
 return
 
-' &  vkBAsc019::
+' &  vkBA::
 _send_save_literal_key()
 return
 
-^vkBAsc019::
+^vkBA::
 _send_save_literal_key()
 return
 
@@ -1013,15 +1013,15 @@ send ^{backspace}
 Hotkey, %A_ThisHotkey%, , on
 return
 
-' & vkBFsc056::
+' & vkBF::
 _in_adresszeile_springen()
 return
 
-' & vkE2sc056::
+' & vkE2::
 _in_adresszeile_springen()
 return
 
-' & vk58sc02D:: ;x
+' & vk58:: ;x
 WinGetTitle, Title, A
 If InStr(Title, "eclipse" , false)
 {
@@ -1649,7 +1649,7 @@ return
 ;=============================
 ; EMACS
 
-#Include C:\Users\christian.guenter\OneDrive\Documents\Autohotkey\Config\autohotkey\emacs-key-sequence.ahk
+#Include C:\Users\christian.guenter\Documents\GIT\Config\autohotkey\emacs-key-sequence.ahk
 
 $^t::
 map:=Object()
@@ -1921,7 +1921,7 @@ clickMessage(){
 		send ^a
 		send ^c
 		send !{f4}
-		filename := "C:\Temp\" + create_guid()
+		;filename := "C:\Temp\" + create_guid()
 		FileAppend, %clipboard%, %filename%
 		Sleep, 100
 	    Run, "C:\Program Files\Sublime Text 3\sublime_text.exe" %filename%
