@@ -31,61 +31,74 @@ HalloWelt()
 AddCommand("1", "Goto Screen 1")
 1()
 {
-	send ^1
+	send ^!#a 
 }
 
 AddCommand("2", "Goto Screen 2")
 2()
 {
-	send ^2
+	send ^#!2
 }
 
 AddCommand("3", "Goto Screen 3")
 3()
 {
-	send ^3
+	send ^#!3
 }
 
 AddCommand("4", "Goto Screen 4")
 4()
 {
-	send ^4
+	send ^#!4
 }
 
 AddCommand("5", "Goto Screen 5")
 5()
 {
-	send ^5
+	send ^#!5
 }
 
 AddCommand("6", "Goto Screen 6")
 6()
 {
-	send ^6
+	send ^#!6
 }
 
 AddCommand("7", "Goto Screen 7")
 7()
 {
-	send ^7
+	send ^#!7
 }
 
 AddCommand("8", "Goto Screen 8")
 8()
 {
-	send ^8
+	send ^#!8
 }
 
 AddCommand("9", "Goto Screen 9")
 9()
 {
-	send ^9
+	send ^#!9
 }
 
-AddCommand("0", "Goto Screen 0")
-0()
+AddCommand("10", "Goto Screen 10")
+AddCommand("0", "Goto Screen 10")
+10()
 {
-	send ^0
+	send ^#!0
+}
+
+AddCommand("11", "Goto Screen 11")
+11()
+{
+	send ^#!'
+}
+
+AddCommand("12", "Goto Screen 12")
+12()
+{
+	send ^#!=
 }
 
 AddCommand("xml", "XML Format")
