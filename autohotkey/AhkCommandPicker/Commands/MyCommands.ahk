@@ -115,6 +115,11 @@ guid()
 	Clipboard := create_guid()
 }
 
+AddCommand("ProTime", "Start Protime")
+ProTime(){
+	Run "C:\Users\christian.guenter\Desktop\ProTime Mitarbeiter.SAP"
+}
+
 create_guid()
 {
 	TypeLib := ComObjCreate("Scriptlet.TypeLib")
