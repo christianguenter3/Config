@@ -304,7 +304,7 @@ CPCreateCommandPickerWindow()
 	
 	; Display a tooltip that we are waiting for a command to be entered.
 	CPShowTooltip("Enter a command")
-	
+
 	; SetTimer, SleepScript, Off		; Restart the Sleep timer.
 	; SetTimer, SleepScript, 100		; Sleep the AHK Command Picker several times a second so we can process hotkeys sent while commands are running.
 	
