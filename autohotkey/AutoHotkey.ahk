@@ -49,8 +49,6 @@ return
 _SE16N_Tabelle()
 return
 
-!space:: ^!+#s
-
 !K::
 _SE16N_Tabelle()
 return
