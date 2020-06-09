@@ -1,4 +1,4 @@
-#e::Run C:\Users\christian.guenter\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\File Explorer.lnk
+#e::Run C:\Users\christian.guenter\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk
 
 #f::Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.lnk
 sleep 500
