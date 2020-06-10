@@ -3096,12 +3096,12 @@ Morse(timeout = 400) { ;by Laszo -> http://www.autohotkey.com/forum/viewtopic.ph
 }
 
 ; ~h::RapidHotkey("{Raw}Hello World!", 3) ;Press h 3 times rapidly to send Hello World!
-~Capslock::RapidHotkey("!^.", 2) 
-~LControl::RapidHotkey("move_mouse_to_cursor",2,,1)
-~RControl::RapidHotkey("move_mouse_to_cursor",2,,1)
-move_mouse_to_cursor:
-MouseMove, % A_CaretX, % A_CaretY 
-return
+; ~Capslock::RapidHotkey("!^.", 2) 
+; ~LControl::RapidHotkey("move_mouse_to_cursor",2,,1)
+; ~RControl::RapidHotkey("move_mouse_to_cursor",2,,1)
+; move_mouse_to_cursor:
+; MouseMove, % A_CaretX, % A_CaretY 
+; return
 
 ; ~LControl & LShift::RapidHotkey("{Raw}ctrl + lshift",1)
 ; ~LAlt::RapidHotkey("{Raw}1231",2)
