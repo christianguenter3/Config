@@ -3069,6 +3069,7 @@ RapidHotkey(keystroke, times="2", delay=0.1, IsLabel=0)
 		Gosub, %keystr%
 	Return
 }	
+
 Morse(timeout = 400) { ;by Laszo -> http://www.autohotkey.com/forum/viewtopic.php?t=16951 (Modified to return: KeyWait %key%, T%tout%)
    tout := timeout/1000
    key := RegExReplace(A_ThisHotKey,"[\*\~\$\#\+\!\^]")
@@ -3110,12 +3111,12 @@ Morse(timeout = 400) { ;by Laszo -> http://www.autohotkey.com/forum/viewtopic.ph
 ;send ^l
 ;return
 
-~RShift::RapidHotkey("control_l_n",2,0.2,1)
-control_l_n:
-send ^l
-sleep 25
-send n
-return
+; ~RShift::RapidHotkey("control_l_n",2,0.2,1)
+; control_l_n:
+; send ^l
+; sleep 25
+; send n
+; return
 
 ; ~LWin::RapidHotkey("test123",2,,1)
 ; test123:
