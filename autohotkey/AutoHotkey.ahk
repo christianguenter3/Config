@@ -2864,8 +2864,9 @@ return
 ; return
 
 #d::
-Run  "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" ,, max
+;Run  "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" ,, max
 ;Run "C:\Program Files (x86)\BraveSoftware\Brave-Browser\Application\brave.exe" ,, max
+Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.lnk
 Sleep,  100
 WinMaximize, Neuer Tab - Google Chrome
 return
